@@ -6,3 +6,7 @@ completed for the UI/UX purpose.
 
 
 added a little information for the master file
+
+I have clone the repo and created adding some more information from the server
+this is the for my training purpose
+Here we GO!

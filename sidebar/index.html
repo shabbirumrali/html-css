@@ -5,11 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Side bar using html css javascript</title>
-
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>sidebar information</h1>
+    <div class="navigation">
+        <div class="menu-toggle"></div>
+            <ul>
+                <li class="list active" style="--clr: #222bed">
+                    <a href="#">
+                        <ion-icon name="home-outline" class="icon"></ion-icon>
+                        <span class="text">Home</span>
+                    </a>
+                </li>
+                <li class="list" style="--clr: orange">
+                    <a href="#">
+                        <ion-icon name="mail-outline" class="icon"></ion-icon>
+                        <span class="text">Message</span>
+                    </a>
+                </li>
+                <li class="list" style="--clr: maroon">
+                    <a href="#">
+                        <ion-icon name="newspaper-outline" class="icon"></ion-icon>
+                        <span class="text">About</span>
+                    </a>
+                </li>
+                <li class="list" style="--clr: grey">
+                    <a href="#">
+                        <ion-icon name="person-circle-outline" class="icon"></ion-icon>
+                        <span class="text">Photos</span>
+                    </a>
+                </li>
+                <li class="list" style="--clr: crimson">
+                    <a href="#">
+                        <ion-icon name="newspaper-outline" class="icon"></ion-icon>
+                        <span class="text">Setting</span>
+                    </a>
+                </li>
+            </ul>
+    </div>
 
     <script src="./js/script.js"></script>
 </body>

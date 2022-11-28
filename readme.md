@@ -1,12 +1,5 @@
-This file is for the training purpose on HTML/CSS and Javascript basics
+HTML CSS SMALL PROJECTS
 
+** This project is for the learing HTML CSS and basic of javascript
 
-This repo contains branches for all the different kind of projects that are been
-completed for the UI/UX purpose.
-
-
-added a little information for the master file
-
-I have clone the repo and created adding some more information from the server
-this is the for my training purpose
-Here we GO!
+Project list and project branch name is listed below

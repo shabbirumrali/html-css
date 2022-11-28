@@ -1,0 +1,1 @@
+This file is for the training purpose on HTML CSS and Javascript basics

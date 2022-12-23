@@ -24,10 +24,12 @@ export const youtubeMusicApi = createApi({
         } 
     }),
     endpoints: (builder) => ({
-        getAlbums: builder.query({ query: () => '/get_album?album_id=MPREb_WALokSukf0y' })
+        getAlbums: builder.query({ query: () => '/get_album?album_id=MPREb_WALokSukf0y' }),
+        getArtist: builder.query({ query: ({ songid }) => `/get_artist?artist_id=${songid}` })
     })
 })
 
 export const {
-    useGetAlbumsQuery
+    useGetAlbumsQuery,
+    useGetArtistQuery
 } = youtubeMusicApi

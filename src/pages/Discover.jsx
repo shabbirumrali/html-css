@@ -13,7 +13,7 @@ const Discover = () => {
 
     if (isFetching) return <Loader title={'loading songs...'} />
 
-    if(error) return <Error /> 
+    if(error) return <Error />
 
     return (
         <div className='flex flex-col'>

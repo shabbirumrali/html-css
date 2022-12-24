@@ -9,7 +9,7 @@ const SongDetails = () => {
     const dispatch = useDispatch()
     const { songid } = useParams()
     const { activeSong, isPlaying } = useSelector((state) => state.player)
-    // const { data: songData, isFecthing: isFetchingSongDetails  } = useGetArtistQuery(songid)
+    // const { data, isFetching,   } = useGetArtistQuery(songid)
     const { data, isFetching, Error } = useGetAlbumsQuery()
 
     const handlePauseClick = () => {
@@ -25,7 +25,9 @@ const SongDetails = () => {
 
     if(Error) return <Error />
 
+    console.log("checking data", songData)
     console.log("checking another data", data)
+    console.log(songid)
     return (
         <div className="flex flex-col">
             <DetailsHeader data={data} artist={data && data.result.artists[0]} />
